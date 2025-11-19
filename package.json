@@ -18,6 +18,10 @@
   "homepage": "https://github.com/thicien/TypeScript-practices#readme",
   "description": "",
   "dependencies": {
-    "openai": "^6.9.1"
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "openai": "^6.9.1",
+    "whisper-node": "^1.1.1"
   }
 }

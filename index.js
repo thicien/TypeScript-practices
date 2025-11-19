@@ -1,18 +1,16 @@
 import fs from "fs";
+import dotenv from 'dotenv';
 import OpenAI from "openai";
-
+dotenv.config()
 const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
 async function transcribeAudio() {
-  const response = await client.audio.transcriptions.create({
-    file: fs.createReadStream("./audio.mp3"),  
-    model: "whisper-1",                        
-    response_format: "text"                   
-  });
-
-  console.log("Transcription:");
+    const response = await client.responses.create({
+      model:"gpt-5.1",
+      input:"What does LGBTQ stands for ?"
+  })
   console.log(response);
 }
 
