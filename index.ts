@@ -1,2 +1,4 @@
 let text: string = "Hello, Thicien!";
-console.log(text);
+let heading = document.createElement("h1");
+heading.textContent = text;
+document.body.appendChild(heading);
