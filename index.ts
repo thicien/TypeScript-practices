@@ -1,5 +1,5 @@
-function add(x, y) {
-    return x + y;
-}
-let result = add(input1.value, Input2.value);
-console.log(result);
+let userName: string = "Thicien";
+let age: number = 21;
+
+console.log("Name:", userName);
+console.log("Age:", age);
