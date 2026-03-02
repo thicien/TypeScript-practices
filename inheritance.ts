@@ -47,7 +47,6 @@ class Developer extends Employee {
 }
 const emp1 = new Manager("Thicien", 5000, "IT");
 const emp2 = new Developer("Alice", 4000, "TypeScript");
-
 console.log(emp1.getDetails());
 console.log(emp2.getDetails());
 console.log(emp1.getRole());
