@@ -10,6 +10,3 @@ export class Challenge {
     return sum;
   }
 }
-console.log(Challenge.solution(10));
-console.log(Challenge.solution(20));
-console.log(Challenge.solution(-5));
