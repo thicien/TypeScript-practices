@@ -8,8 +8,3 @@ export function alphanumeric(string: string): boolean {
     }
     return true;
 }
-console.log(alphanumeric("abc123"));
-console.log(alphanumeric("ABC"));
-console.log(alphanumeric("12345"));
-console.log(alphanumeric("abc_123"));
-console.log(alphanumeric("abc 123"));
