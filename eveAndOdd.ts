@@ -11,9 +11,7 @@ const evenOrOddProxy: any = new Proxy(evenOrOdd, {
     return (target as any)[prop];
   }
 });
-
-// Examples
-console.log(evenOrOddProxy(2)); // Even
-console.log(evenOrOddProxy[2]); // Even
-console.log(evenOrOddProxy(7)); // Odd
-console.log(evenOrOddProxy[7]); // Odd
+console.log(evenOrOddProxy(2));
+console.log(evenOrOddProxy[2]); 
+console.log(evenOrOddProxy(7)); 
+console.log(evenOrOddProxy[7]); 
