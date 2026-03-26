@@ -31,6 +31,7 @@ export function numberToEnglish(x: number): string {
       ? `${ones[h]} hundred`
       : `${ones[h]} hundred ${convertBelow100(r)}`;
   }
+  
   if (x < 1000) return convertBelow1000(x);
   const thousands = Math.floor(x / 1000);
   const remainder = x % 1000;
