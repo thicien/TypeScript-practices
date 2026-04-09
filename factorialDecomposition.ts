@@ -31,4 +31,4 @@ export function decomp(n: number): string {
   return result.join(" * ");
 }
 
-console(decomp(12));
+console.log(decomp(12));
