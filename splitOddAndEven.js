@@ -5,7 +5,6 @@ function splitOddAndEven(n) {
   for (let i = 1; i < digits.length; i++) {
     let previous = digits[i - 1] % 2;
     let curry = digits[i] % 2;
-
     if (previous === curry) {
       current += digits[i];
     } else {
