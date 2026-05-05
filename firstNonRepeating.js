@@ -7,5 +7,3 @@ function firstDup(s) {
   return undefined;
 }
 firstDup('tweet');
-firstDup('like');
-firstDup('translator');
