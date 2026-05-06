@@ -6,4 +6,4 @@ function firstDup(s) {
   }
   return undefined;
 }
-firstDup('tweet');
+console.log(firstDup('tweet'));
